@@ -1,0 +1,30 @@
+{
+  "display-time": 5,
+  "screen-apps": [
+    {
+        "type" : "Hello"
+    },  
+    {
+        "type" : "Clock",
+        "params":{
+            "utc-diff": 7,
+            "city" : "Da Nang"
+        }
+    },
+    {
+      "type": "Clock",
+      "params": 
+      {
+        "utc-diff": -4,
+        "city": "Washington DC, USA"
+      } 
+    },
+    {
+        "type" : "Clock",
+        "params":{
+            "utc-diff": 1,
+            "city" : "Munich"
+        }
+    }
+  ]
+}
